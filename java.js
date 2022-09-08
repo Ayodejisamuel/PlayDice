@@ -18,11 +18,11 @@ image1.setAttribute("src", randomImageSource);
 //  Conditional statement to change the display of h1 element.
 
 if (randomNumber > randomNumber2)  {
-    document.querySelector("h1").innerHTML = "🚩 Player 1 Won";
+    document.querySelector("h1").innerHTML = "🚩Player 1 Won";
 }else if(randomNumber < randomNumber2) {
 
-    document.querySelector("h1").innerHTML = "🚩 Player 2 Won";
+    document.querySelector("h1").innerHTML = "🚩Player 2 Won";
 
 }else {
-    document.querySelector("h1").innerHTML = "Draw"
+    document.querySelector("h1").innerHTML = "🚩Draw🚩"
 }
