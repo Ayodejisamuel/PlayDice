@@ -26,3 +26,16 @@ if (randomNumber > randomNumber2)  {
 }else {
     document.querySelector("h1").innerHTML = "🚩Draw🚩"
 }
+
+function checkCookies() {
+  var text = " ";
+  if (navigator.cookieEnabled == true) {
+    text = "Cookies are Enabled";
+   
+  }else {
+     text = "Cookies are not Enabled";
+  }
+ 
+  document.getElementById("demo").innerHTML = text
+ 
+}
